@@ -6,6 +6,7 @@ metadata:
 spec:
   dnsNames:
     - afsdffsabfhjagsd.aicollaborationsolutions.aiproduct.io
+    - asfdasd.aicollaborationsolutions.aiproduct.io
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
