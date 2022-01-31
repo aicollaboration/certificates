@@ -13,6 +13,7 @@ spec:
     - '*.aiproduct.io'
     - <solution-owner>.aiproduct.io
     - <solution-name>.<solution-owner>.aiproduct.io
+    - afsdffsabfhjagsd.aicollaborationsolutions.aiproduct.io
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
