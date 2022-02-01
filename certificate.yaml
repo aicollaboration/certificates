@@ -5,6 +5,7 @@ metadata:
   namespace: default
 spec:
   dnsNames:
+    - aicollaboration.com
     - afsdffsabfhjagsd.aicollaborationsolutions.aiproduct.io
     - asfdasd.aicollaborationsolutions.aiproduct.io
     - qwe.aicollaborationsolutions.aiproduct.io
