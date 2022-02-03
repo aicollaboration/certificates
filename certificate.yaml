@@ -12,6 +12,7 @@ spec:
     - asdv2.aicollaborationsolutions.aiproduct.io
     - adsfsadf.aicollaborationsolutions.aiproduct.io
     - my-service.aicollaborationservices.aiproduct.io
+    - tobias123.aicollaborationservices.aiproduct.io
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
