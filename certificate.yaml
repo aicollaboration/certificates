@@ -16,6 +16,7 @@ spec:
     - asdfasdf.aicollaborationservices.aiproduct.io
     - asdfasf.aicollaborationservices.aiproduct.io
     - asdfasdf.aicollaborationsolutions.aiproduct.io
+    - Emilus.aicollaborationsolutions.aiproduct.io
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
