@@ -6,6 +6,8 @@ metadata:
 spec:
   dnsNames:
     - aicollaboration.com
+    - question-answering.aiproduct.io
+    - predictive-basket.aiproduct.io
     - afsdffsabfhjagsd.aicollaborationsolutions.aiproduct.io
     - asfdasd.aicollaborationsolutions.aiproduct.io
     - qwe.aicollaborationsolutions.aiproduct.io
