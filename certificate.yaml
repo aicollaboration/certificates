@@ -12,6 +12,7 @@ spec:
     - '*.aicollaborationsolutions.aiproduct.io'
     - tobiasservice.tobiasoberrauch.aiproduct.io
     - tobiasservice.aicollaborationservices.aiproduct.io
+    - foobar.aicollaborationservices.aicollaboration.net
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
