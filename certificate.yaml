@@ -9,17 +9,7 @@ spec:
     - appsmith.aicollaboration.com
     - question-answering.aiproduct.io
     - predictive-basket.aiproduct.io
-    - afsdffsabfhjagsd.aicollaborationsolutions.aiproduct.io
-    - asfdasd.aicollaborationsolutions.aiproduct.io
-    - qwe.aicollaborationsolutions.aiproduct.io
-    - asdv2.aicollaborationsolutions.aiproduct.io
-    - adsfsadf.aicollaborationsolutions.aiproduct.io
-    - my-service.aicollaborationservices.aiproduct.io
-    - tobias123.aicollaborationservices.aiproduct.io
-    - asdfasdf.aicollaborationservices.aiproduct.io
-    - asdfasf.aicollaborationservices.aiproduct.io
-    - asdfasdf.aicollaborationsolutions.aiproduct.io
-    - Emilus.aicollaborationsolutions.aiproduct.io
+    - "*.aicollaborationsolutions.aiproduct.io"
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
