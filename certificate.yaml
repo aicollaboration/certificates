@@ -11,6 +11,7 @@ spec:
     - predictive-basket.aiproduct.io
     - '*.aicollaborationsolutions.aiproduct.io'
     - tobiasservice.tobiasoberrauch.aiproduct.io
+    - tobiasservice.aicollaborationservices.aiproduct.io
   secretName: tls-latest-aiproduct.io
   issuerRef:
     name: letsencrypt-cluster-issuer
