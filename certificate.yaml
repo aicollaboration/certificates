@@ -11,11 +11,6 @@ spec:
     - appsmith.aicollaboration.com
     - question-answering.aiproduct.io
     - predictive-basket.aiproduct.io
-    - '*.aicollaborationsolutions.aiproduct.io'
-    - tobiasservice.tobiasoberrauch.aiproduct.io
-    - tobiasservice.aicollaborationservices.aiproduct.io
-    - foobar.aicollaborationservices.aicollaboration.net
-    - nima.aicollaborationservices.aicollaboration.net
   secretName: tls-latest-certificate
   issuerRef:
     name: letsencrypt-cluster-issuer
