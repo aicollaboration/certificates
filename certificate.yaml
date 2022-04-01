@@ -15,7 +15,7 @@ spec:
     - tobiasservice.aicollaborationservices.aiproduct.io
     - foobar.aicollaborationservices.aicollaboration.net
     - nima.aicollaborationservices.aicollaboration.net
-  secretName: tls-latest-aiproduct.io
+  secretName: tls-latest-certificate
   issuerRef:
     name: letsencrypt-cluster-issuer
     kind: ClusterIssuer
