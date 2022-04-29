@@ -11,6 +11,7 @@ spec:
     - appsmith.aicollaboration.com
     - question-answering.aiproduct.io
     - predictive-basket.aiproduct.io
+    - backend.aiproduct.io
   secretName: tls-latest-certificate
   issuerRef:
     name: letsencrypt-cluster-issuer
