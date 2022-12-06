@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   # This workflow contains a single job called "build"
@@ -18,16 +18,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-     - name: Checkout
-       uses: actions/checkout@v2
-         
-     - name: Set kubernetes secrets
-       uses: azure/k8s-set-context@v2
-       with:
-          method: kubeconfig
-          kubeconfig: ${{ secrets.KUBECONFIG }}
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Get tag name
+        id: tagName
+        uses: olegtarasov/get-tag@v2
+          
+      - name: Set up kubectl
+        uses: matootie/dokube@v1.4.0
+        with:
+          personalAccessToken: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          clusterName: k8s-1-24-4-do-0-fra1-1669239908785
 
-     - name: k8s deployment
-       run: |
-           kubectl apply -f certificate.yaml
-    
+      - name: k8s deployment
+        run: |
+          kubectl apply -f certificate.yaml
